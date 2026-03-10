@@ -1,0 +1,123 @@
+
+header{
+    text-align: center;
+    position: fixed;
+    padding: 10px 20px 10px 20px;
+    top: 0;
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(170, 170, 170);
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    padding: 5% 15px;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav{
+    position: fixed;
+    top: 12px;
+    right: 30px;
+    font-size: 15px;
+}
+
+nav a:hover{
+    color: rgb(141, 141, 141);
+    background-color: rgb(224, 224, 224);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px -2px rgba(128,128,128);
+    transition: 0.3s;
+}
+
+.title{
+    position: fixed;
+    top: -12px;
+    left: 40px;
+    font-size: 32px;
+}
+body{
+    margin: 0px;
+    padding-top: 60px;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.home{
+    height: 800px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image:url(Gemini_Generated_Image_qbtupuqbtupuqbtu.png) ;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.containerHome{
+    width: 50%;
+    margin-left: 10px;
+    padding-top: 25px;
+}
+
+section.about {
+   height: 800px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.containerAbout{
+    width: 50%;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+    & img{
+         width:200px;
+    }
+}
+
+section.profile{
+    height: 800px;
+    padding-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cardProfile{
+    background-color: rgb(213, 209, 209);
+    padding: 15px;
+    width:300px;
+    margin: auto;
+    text-align: center;
+}
+
+img{
+    width:100%;
+}
+
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height:40px;
+    padding-top:5px;
+}
+
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+}
+.home{
+    
+}
